@@ -1,0 +1,39 @@
+li {
+  height: 35vh;
+  width: 18vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #9796f0;
+  border: #fbc7d4 solid 3px;
+  border-radius: 30px;
+}
+.emoji-img {
+  height: 20vh;
+}
+button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  li {
+    height: 12vh;
+    width: 27vw;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 6px;
+    margin-bottom: 15px;
+    border-radius: 22px;
+  }
+  .emoji-img {
+    height: 6vh;
+  }
+}
